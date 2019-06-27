@@ -1,0 +1,137 @@
+2019-06-24 21:49:27,858 INFO osmnx Configured osmnx
+2019-06-24 21:49:41,739 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.01 seconds
+2019-06-24 21:49:41,743 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:49:41,744 INFO osmnx Created bounding box 700 meters in each direction from (51.513578, -0.136722): 51.51986432461767,51.50729166644465,-0.12664707606380748,-0.14679706692375316
+2019-06-24 21:49:41,747 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:49:41,751 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:49:41,754 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:49:41,758 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:49:41,758 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2019-06-24 21:49:41,782 INFO osmnx Retrieved response from cache file "cache/f1b707a66a9ad43eaacddd8c676d11d5.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22cycleway%7Cmotor%7Cproposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22foot%22%21~%22no%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2851.502798%2C-0.154000%2C51.524358%2C-0.119444%29%3B%3E%3B%29%3Bout%3B"
+2019-06-24 21:49:41,783 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.02 seconds
+2019-06-24 21:49:41,783 INFO osmnx Creating networkx graph from downloaded OSM data...
+2019-06-24 21:49:42,230 INFO osmnx Graph was not connected, retained only the largest weakly connected component (10,669 of 10,971 total nodes) in 0.22 seconds
+2019-06-24 21:49:42,268 INFO osmnx Created graph with 10,669 nodes and 24,500 edges in 0.48 seconds
+2019-06-24 21:49:42,487 INFO osmnx Added edge lengths to graph in 0.21 seconds
+2019-06-24 21:49:42,629 INFO osmnx Truncated graph by bounding box in 0.14 seconds
+2019-06-24 21:49:42,630 INFO osmnx Begin topologically simplifying the graph...
+2019-06-24 21:49:42,947 INFO osmnx Identified 3,858 edge endpoints in 0.09 seconds
+2019-06-24 21:49:42,962 INFO osmnx Constructed all paths to simplify in 0.01 seconds
+2019-06-24 21:49:43,663 INFO osmnx Simplified graph (from 10,669 to 3,858 nodes and from 24,500 to 10,878 edges) in 0.70 seconds
+2019-06-24 21:49:43,736 INFO osmnx Truncated graph by bounding box in 0.06 seconds
+2019-06-24 21:49:43,739 INFO osmnx Removed 4 isolated nodes
+2019-06-24 21:49:43,774 INFO osmnx Graph was not connected, retained only the largest weakly connected component (1,389 of 1,391 total nodes) in 0.03 seconds
+2019-06-24 21:49:44,187 INFO osmnx Got the counts of undirected street segments incident to each node (before removing peripheral edges) in 0.41 seconds
+2019-06-24 21:49:44,200 INFO osmnx graph_from_bbox() returning graph with 1,389 nodes and 3,900 edges
+2019-06-24 21:49:44,219 INFO osmnx graph_from_point() returning graph with 1,389 nodes and 3,900 edges
+2019-06-24 21:49:44,220 INFO osmnx Begin plotting the graph...
+2019-06-24 21:49:44,333 INFO osmnx Created GeoDataFrame "unnamed_edges" from graph in 0.11 seconds
+2019-06-24 21:49:44,543 INFO osmnx Drew the graph edges in 0.08 seconds
+2019-06-24 21:49:44,730 INFO osmnx Showed the plot in 0.14 seconds
+2019-06-24 21:50:42,263 INFO osmnx Configured osmnx
+2019-06-24 21:50:57,577 INFO osmnx Configured osmnx
+2019-06-24 21:51:04,238 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:51:04,241 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:51:04,242 INFO osmnx Created bounding box 700 meters in each direction from (51.513578, -0.136722): 51.51986432461767,51.50729166644465,-0.12664707606380748,-0.14679706692375316
+2019-06-24 21:51:04,245 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:51:04,249 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:51:04,253 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:51:04,257 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:51:04,258 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2019-06-24 21:51:04,281 INFO osmnx Retrieved response from cache file "cache/f1b707a66a9ad43eaacddd8c676d11d5.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22cycleway%7Cmotor%7Cproposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22foot%22%21~%22no%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2851.502798%2C-0.154000%2C51.524358%2C-0.119444%29%3B%3E%3B%29%3Bout%3B"
+2019-06-24 21:51:04,281 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.02 seconds
+2019-06-24 21:51:04,282 INFO osmnx Creating networkx graph from downloaded OSM data...
+2019-06-24 21:51:04,728 INFO osmnx Graph was not connected, retained only the largest weakly connected component (10,669 of 10,971 total nodes) in 0.22 seconds
+2019-06-24 21:51:04,767 INFO osmnx Created graph with 10,669 nodes and 24,500 edges in 0.48 seconds
+2019-06-24 21:51:04,992 INFO osmnx Added edge lengths to graph in 0.22 seconds
+2019-06-24 21:51:05,136 INFO osmnx Truncated graph by bounding box in 0.14 seconds
+2019-06-24 21:51:05,137 INFO osmnx Begin topologically simplifying the graph...
+2019-06-24 21:51:05,460 INFO osmnx Identified 3,858 edge endpoints in 0.09 seconds
+2019-06-24 21:51:05,476 INFO osmnx Constructed all paths to simplify in 0.01 seconds
+2019-06-24 21:51:06,168 INFO osmnx Simplified graph (from 10,669 to 3,858 nodes and from 24,500 to 10,878 edges) in 0.69 seconds
+2019-06-24 21:51:06,245 INFO osmnx Truncated graph by bounding box in 0.07 seconds
+2019-06-24 21:51:06,248 INFO osmnx Removed 4 isolated nodes
+2019-06-24 21:51:06,284 INFO osmnx Graph was not connected, retained only the largest weakly connected component (1,389 of 1,391 total nodes) in 0.03 seconds
+2019-06-24 21:51:06,704 INFO osmnx Got the counts of undirected street segments incident to each node (before removing peripheral edges) in 0.41 seconds
+2019-06-24 21:51:06,718 INFO osmnx graph_from_bbox() returning graph with 1,389 nodes and 3,900 edges
+2019-06-24 21:51:06,739 INFO osmnx graph_from_point() returning graph with 1,389 nodes and 3,900 edges
+2019-06-24 21:51:06,745 INFO osmnx Begin plotting the graph...
+2019-06-24 21:51:06,860 INFO osmnx Created GeoDataFrame "unnamed_edges" from graph in 0.11 seconds
+2019-06-24 21:51:07,070 INFO osmnx Drew the graph edges in 0.08 seconds
+2019-06-24 21:51:07,256 INFO osmnx Showed the plot in 0.14 seconds
+2019-06-24 21:51:37,741 INFO osmnx Configured osmnx
+2019-06-24 21:52:04,248 INFO osmnx Configured osmnx
+2019-06-24 21:52:06,801 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:52:06,804 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:52:06,805 INFO osmnx Created bounding box 700 meters in each direction from (51.513578, -0.136722): 51.51986432461767,51.50729166644465,-0.12664707606380748,-0.14679706692375316
+2019-06-24 21:52:06,808 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:52:06,812 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:52:06,816 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 21:52:06,819 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 21:52:06,820 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2019-06-24 21:52:06,842 INFO osmnx Retrieved response from cache file "cache/f1b707a66a9ad43eaacddd8c676d11d5.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22cycleway%7Cmotor%7Cproposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22foot%22%21~%22no%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2851.502798%2C-0.154000%2C51.524358%2C-0.119444%29%3B%3E%3B%29%3Bout%3B"
+2019-06-24 21:52:06,843 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.02 seconds
+2019-06-24 21:52:06,843 INFO osmnx Creating networkx graph from downloaded OSM data...
+2019-06-24 21:52:07,299 INFO osmnx Graph was not connected, retained only the largest weakly connected component (10,669 of 10,971 total nodes) in 0.30 seconds
+2019-06-24 21:52:07,338 INFO osmnx Created graph with 10,669 nodes and 24,500 edges in 0.49 seconds
+2019-06-24 21:52:07,563 INFO osmnx Added edge lengths to graph in 0.22 seconds
+2019-06-24 21:52:07,707 INFO osmnx Truncated graph by bounding box in 0.14 seconds
+2019-06-24 21:52:07,708 INFO osmnx Begin topologically simplifying the graph...
+2019-06-24 21:52:07,949 INFO osmnx Identified 3,858 edge endpoints in 0.09 seconds
+2019-06-24 21:52:07,965 INFO osmnx Constructed all paths to simplify in 0.01 seconds
+2019-06-24 21:52:08,746 INFO osmnx Simplified graph (from 10,669 to 3,858 nodes and from 24,500 to 10,878 edges) in 0.78 seconds
+2019-06-24 21:52:08,821 INFO osmnx Truncated graph by bounding box in 0.06 seconds
+2019-06-24 21:52:08,825 INFO osmnx Removed 4 isolated nodes
+2019-06-24 21:52:08,860 INFO osmnx Graph was not connected, retained only the largest weakly connected component (1,389 of 1,391 total nodes) in 0.03 seconds
+2019-06-24 21:52:09,211 INFO osmnx Got the counts of undirected street segments incident to each node (before removing peripheral edges) in 0.35 seconds
+2019-06-24 21:52:09,225 INFO osmnx graph_from_bbox() returning graph with 1,389 nodes and 3,900 edges
+2019-06-24 21:52:09,246 INFO osmnx graph_from_point() returning graph with 1,389 nodes and 3,900 edges
+2019-06-24 21:52:09,253 INFO osmnx Begin plotting the graph...
+2019-06-24 21:52:09,368 INFO osmnx Created GeoDataFrame "unnamed_edges" from graph in 0.11 seconds
+2019-06-24 21:52:09,578 INFO osmnx Drew the graph edges in 0.08 seconds
+2019-06-24 21:52:09,765 INFO osmnx Showed the plot in 0.14 seconds
+2019-06-24 21:53:57,166 INFO osmnx Saved graph "unnamed" to disk as GraphML at "resources/soho.graphml" in 0.37 seconds
+2019-06-24 21:54:19,702 INFO osmnx Created GeoDataFrame "unnamed_edges" from graph in 0.12 seconds
+2019-06-24 23:12:17,297 INFO osmnx Configured osmnx
+2019-06-24 23:12:28,214 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 23:12:28,218 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 23:12:28,218 INFO osmnx Created bounding box 1000 meters in each direction from (51.513341, -0.136668): 51.52232146094418,51.50436052081551,-0.12227537078234389,-0.15106092103073046
+2019-06-24 23:12:28,222 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 23:12:28,225 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 23:12:28,228 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-30 in 0.00 seconds
+2019-06-24 23:12:28,232 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2019-06-24 23:12:28,233 INFO osmnx Requesting network data within bounding box from API in 1 request(s)
+2019-06-24 23:12:28,263 INFO osmnx Retrieved response from cache file "cache/8572ca904781160bf68b4e03d583b831.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22cycleway%7Cmotor%7Cproposed%7Cconstruction%7Cabandoned%7Cplatform%7Craceway%22%5D%5B%22foot%22%21~%22no%22%5D%5B%22service%22%21~%22private%22%5D%5B%22access%22%21~%22private%22%5D%2851.499867%2C-0.158264%2C51.526815%2C-0.115072%29%3B%3E%3B%29%3Bout%3B"
+2019-06-24 23:12:28,264 INFO osmnx Got all network data within bounding box from API in 1 request(s) and 0.03 seconds
+2019-06-24 23:12:28,265 INFO osmnx Creating networkx graph from downloaded OSM data...
+2019-06-24 23:12:28,932 INFO osmnx Graph was not connected, retained only the largest weakly connected component (15,697 of 16,193 total nodes) in 0.34 seconds
+2019-06-24 23:12:28,989 INFO osmnx Created graph with 15,697 nodes and 35,852 edges in 0.72 seconds
+2019-06-24 23:12:29,319 INFO osmnx Added edge lengths to graph in 0.32 seconds
+2019-06-24 23:12:29,527 INFO osmnx Truncated graph by bounding box in 0.20 seconds
+2019-06-24 23:12:29,528 INFO osmnx Begin topologically simplifying the graph...
+2019-06-24 23:12:30,008 INFO osmnx Identified 5,409 edge endpoints in 0.13 seconds
+2019-06-24 23:12:30,031 INFO osmnx Constructed all paths to simplify in 0.02 seconds
+2019-06-24 23:12:31,027 INFO osmnx Simplified graph (from 15,697 to 5,409 nodes and from 35,852 to 15,276 edges) in 0.99 seconds
+2019-06-24 23:12:31,250 INFO osmnx Truncated graph by bounding box in 0.21 seconds
+2019-06-24 23:12:31,256 INFO osmnx Removed 6 isolated nodes
+2019-06-24 23:12:31,326 INFO osmnx Graph was not connected, retained only the largest weakly connected component (2,719 of 2,722 total nodes) in 0.07 seconds
+2019-06-24 23:12:31,815 INFO osmnx Got the counts of undirected street segments incident to each node (before removing peripheral edges) in 0.48 seconds
+2019-06-24 23:12:31,837 INFO osmnx graph_from_bbox() returning graph with 2,719 nodes and 7,644 edges
+2019-06-24 23:12:31,867 INFO osmnx graph_from_point() returning graph with 2,719 nodes and 7,644 edges
+2019-06-24 23:13:12,156 INFO osmnx Created GeoDataFrame "unnamed_nodes" from graph in 0.08 seconds
+2019-06-24 23:13:12,177 INFO osmnx Found nearest node (26845544) to point (51.51299296130929, -0.1349876183155574) in 0.01 seconds
+2019-06-24 23:13:26,415 INFO osmnx Created a GeoDataFrame from graph in 0.08 seconds
+2019-06-24 23:13:26,503 INFO osmnx Projected the GeoDataFrame "unnamed_nodes" to UTM-30 in 0.09 seconds
+2019-06-24 23:13:27,412 INFO osmnx Projected the GeoDataFrame "unnamed_edges" to UTM-30 in 0.90 seconds
+2019-06-24 23:13:27,464 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.05 seconds
+2019-06-24 23:13:32,838 INFO osmnx Rebuilt projected graph in 5.37 seconds
+2019-06-24 23:13:56,576 INFO osmnx Created GeoDataFrame "unnamed_UTM_edges" from graph in 0.04 seconds
+2019-06-24 23:13:57,918 INFO osmnx Made undirected graph in 1.63 seconds
+2019-06-24 23:13:58,919 INFO osmnx Saved graph "unnamed_UTM" to disk as shapefiles at "outputs/graph" in 2.76 seconds
+2019-06-24 23:14:15,912 INFO osmnx Begin plotting the graph...
+2019-06-24 23:14:16,135 INFO osmnx Created GeoDataFrame "unnamed_UTM_edges" from graph in 0.22 seconds
+2019-06-24 23:14:16,520 INFO osmnx Drew the graph edges in 0.15 seconds
+2019-06-24 23:14:16,991 INFO osmnx Showed the plot in 0.40 seconds
+2019-06-24 23:14:54,922 INFO osmnx Begin plotting the graph...
+2019-06-24 23:14:55,148 INFO osmnx Created GeoDataFrame "unnamed_UTM_edges" from graph in 0.22 seconds
+2019-06-24 23:14:55,536 INFO osmnx Drew the graph edges in 0.15 seconds
