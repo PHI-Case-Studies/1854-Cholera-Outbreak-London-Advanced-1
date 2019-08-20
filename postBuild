@@ -1,1 +1,1 @@
-conda install -y folium=0.10* jinja2=2.10* osmnx=0.10* pandas=0.25* geopandas=0.5* descartes shapely poppler<0.67
+conda install -y folium=0.10* jinja2=2.10* osmnx=0.10* pandas=0.25* geopandas=0.5* descartes shapely poppler<0.66
