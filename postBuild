@@ -1,1 +1,1 @@
-conda install -y -c conda-forge folium=0.10* jinja2=2.10* osmnx=0.10* pandas=0.25* geopandas=0.51 descartes shapely
+conda install -y -c conda-forge folium=0.10* jinja2=2.10* osmnx=0.10* pandas=0.25* geopandas=0.5* descartes shapely
