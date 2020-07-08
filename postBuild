@@ -1,3 +1,3 @@
 conda config --set channel_priority strict
-conda install -y -c conda-forge folium=0.11* jinja2=2.10* osmnx=0.14* pandas=1.0* geopandas descartes shapely poppler
+conda install -y -c conda-forge folium=0.11* jinja2=2.10* osmnx=0.15* pandas=1.0* geopandas=0.80* descartes shapely poppler
 
