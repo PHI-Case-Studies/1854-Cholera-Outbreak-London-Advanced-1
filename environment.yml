@@ -1,0 +1,16 @@
+name: advanced1
+channels:
+  - conda-forge
+dependencies:
+  - folium=0.11*
+  - jinja2=2.10*
+  - osmnx=0.15*
+  - matplotlib
+  - pandas=1.0*
+  - geopandas
+  - descartes
+  - shapely
+  - poppler
+  - numpy
+  - pip:
+    - alphashape
