@@ -4,7 +4,7 @@ channels:
 dependencies:
   - folium=0.12*
   - jinja2=2.10*
-  - osmnx=0.15*
+  - osmnx=1.*
   - matplotlib
   - pandas=1.*
   - geopandas
