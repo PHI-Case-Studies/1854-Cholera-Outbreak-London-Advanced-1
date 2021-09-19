@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - folium=0.12*
-  - jinja2=2.10*
+  - jinja2
   - osmnx=1.*
   - matplotlib
   - pandas=1.*
