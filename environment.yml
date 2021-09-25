@@ -13,6 +13,4 @@ dependencies:
   - shapely
   - poppler
   - numpy
-  - pip:
-    - alphashape
-    - pickle5
+  - alphashape
