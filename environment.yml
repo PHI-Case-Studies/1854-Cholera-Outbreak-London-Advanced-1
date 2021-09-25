@@ -2,6 +2,7 @@ name: advanced1
 channels:
   - conda-forge
 dependencies:
+  - python>=3.9*
   - folium=0.12*
   - jinja2
   - osmnx=1.*
